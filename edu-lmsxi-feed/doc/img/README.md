@@ -1,0 +1,1 @@
+En este carpeta `doc/img` debes emplazar todas tus imágenes. Recuerda utilizar rutas relativas en markdown.

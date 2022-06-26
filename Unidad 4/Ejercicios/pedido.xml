@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" estandalone="yes"?>
+<pedido>
+	<destinatario>
+		<nombre>Juan</nombre>
+		<apellidos>Delgado Martínez</apellidos>
+		<dirección>
+			<via type="calle">Calle barco</via)
+			<numero>4</numero>
+			<piso>tercer piso</piso>
+			<letra>A</letra>
+		</dirección>
+	</destinatario>
+	<articulo name="bicicleta" type="A2023"/>
+	<fecha_entrega type="date">2000/05/19</fecha_entrega>
+<pedido>	
+			

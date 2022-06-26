@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<!-- elemento raíz -->
+	<xs:elmenent name ="alumnos" type="datosAlum"/>
+	<!-- Defininición del tipo datosAlum -->
+	<xs:complexType name="datosAlum">
+		<xs:sequence>
+			<xs:element name="alumno" type="datos" minOccurs ="1" maxOccurs ="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Definición del tipo de datos -->
+	
+	<xs:complexType name="datos">
+		<xs:sequence>
+			<xs:element name ="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name ="apellidos" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name ="direccion" type="datosDireccion" minOccurs="1" maxOccurs="1"/>
+			<xs:element name ="contactar" type="datosContactar" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		
+		<!-- Atributos del elemento usuario -->
+		<xs:attibute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="datosDireccion">
+		<xs:sequence>
+			<xs:element name="domicilio" type="xs:string" minOccurs="0" maxOccurs"1"/>
+			<xs:element name="codigo_postal" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:attibute name="cp" type="xsd:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="localidad" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:elemente name="provincia" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="datosContactar">
+		<xs:sequence>
+			<xs:element name="telf_casa" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="telf_movil"
+			<xs:element name="
+			<xs:element name="

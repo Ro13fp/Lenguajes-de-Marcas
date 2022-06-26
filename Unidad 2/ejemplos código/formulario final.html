@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>        
+    </head>
+
+    <body>
+        <h1>Ejemplo de formulario: Matriculación en el ASIR</h1>
+        <form name="Formulario">
+            <label for="Nombre"><strong>Nombre:</strong> </label>
+            <input type="text" name="Nombre"> &nbsp;&nbsp;
+            <label for="Apellidos"> <strong>Apellidos:</strong></label>
+            <input type="text" name="Apellidos"> &nbsp;
+
+            <label for="Sexo"><strong>Sexo:</strong></label>
+            <label for="M">M</label>
+            <input type="radio" id="Sexo" name="Sexo" value="M">
+            <label for="H">H</label>
+            <input type="radio" id="Sexo" name="Sexo" value="H">
+            <br>
+            <br>
+            <label for="Fecha"> <strong>Fecha de nacimiento:</strong></label>
+            <input type="date" id="Fecha" name="Fecha" value="Día">
+            <br>
+            <br>
+            <h3>Escoge los módulos en los que te matriculas:</h3> <br>
+            
+
+            <input type="checkbox" id="Fundamentos" name="Fundamentos" value="Fundamentos de Hardware">
+            <label for="Fundamentos">Fundamentos de Hardware</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Servicios" name="Servicios" value="Servicios de Red e Internet">
+            <label for="Servicios">Servicios de Red e Internet</label>
+            <br>
+
+            <input type="checkbox" id="Gestión" name="Gestión" value="Gestión de Bases de Datos">
+            <label for="Gestión">Gestión de Bases de Datos</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Administración" name="Administración" value="Administración de Sistemas Operativos">
+            <label for="Administración">Administración de Sistemas Operativos</label>
+            <br>
+
+            <input type="checkbox" id="Implantación" name="Implantación" value="Implantación de Sistemas Operativos">
+            <label for="Implantación">Implantación de Sistemas Operativos</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Implantación" name="Implantación" value="Implantación de Aplicaciones Web">
+            <label for="Implantación">Implantación de Aplicaciones Web</label>
+            <br>
+
+            <input type="checkbox" id="Planificación" name="Planificación" value="Planificación y Administración de Redes">
+            <label for="Planificación">Planificación y Administración de Redes</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Administración" name="Administración" value="Administración de Sistemas Gestores de Bases de Datos">
+            <label for="Administración">Administración de Sistemas Gestores de Bases de Datos</label>
+            <br>
+
+            <input type="checkbox" id="Lenguajes" name="Lenguajes" value="Lenguajes de Marcas y Sistemas de Gestión de Información">
+            <label for="Lenguajes">Lenguajes de Marcas y Sistemas de Gestión de Información</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Seguridad" name="Seguridad" value="Seguridad y Alta Disponibilidad">
+            <label for="Seguridad">Seguridad y Alta Disponibilidad</label>
+            <br>
+
+            <input type="checkbox" id="Formación" name="Formación" value="Formación y Orientación Laboral">
+            <label for="Formación">Formación y Orientación Laboral</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Empresa" name="Empresa" value="Empresa e Iniciativa Emprendedora">
+            <label for="Empresa">Empresa e Iniciativa Emprendedora</label>
+            <br>
+
+            <input type="checkbox" id="Proyecto" name="Proyecto" value="Proyecto de Administración de Sistemas en Red">
+            <label for="Proyecto">Proyecto de Administración de Sistemas en Red</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Fct" name="Fct" value="Formación en Centros de Trabajo">
+            <label for="Fct">Formación en Centros de Trabajo</label>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <label for="Estudios"><strong>Estudios previos:</strong></label><br>
+            <textarea name="Estudios" id="Estudios" cols="60" rows="10"></textarea>
+            <br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+            <br>
+
+            <h3>Pulsa el botón de "enviar" para formalizar la matrícula o el botón de "restablecer" para limpiar el formulario.</h3>
+           
+
+
+        </form>
+    </body>
+</html>
